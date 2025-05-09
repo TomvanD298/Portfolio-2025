@@ -10,16 +10,16 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="navbar">
         <a href="#">Home</a>
-        <a href="#">Over mij</a>
+        <a href="#about">Over mij</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact</a>
       </nav>
     </header>
 
     <main>
-      <section class="home">
+      <section id="home">
         <div class="homeLeft">
           <h1 id="heading">
             Hoi!<br /><span>Ik ben <strong>Tom</strong></span>
@@ -83,7 +83,7 @@
 
       <div class="curvedOverlay"></div>
 
-      <section class="about">
+      <section id="about">
         <div class="aboutText">
           <h2>Over mij</h2>
           <p>
@@ -91,15 +91,17 @@
             Multimedia Design. Momenteel zit ik in mijn derde studiejaar.
             Gedurende mijn studie heb ik diverse projecten uitgevoerd, wat me
             heeft doen realiseren dat Front-end het best bij mijn interesses
-            past.Ik heb mijn eerste studiejaar in één keer afgerond en werd
-            genomineerd voor de Golden Dot Awards dankzij mijn werk"Popcorn
-            Time". Voorafgaand aan deze studie heb ik 2 jaar HBO ICT gedaan en
-            daarna een aantal jaar gewerkt als vastgoedfotograaf en
-            cameraman.Benieuwd? Stuur me een berichtje!
+            past.<br /><br />
+            In mijn eerste studiejaar werd genomineerd voor de Golden Dot Awards
+            dankzij mijn werk"Popcorn Time". <br /><br />
+            Voorafgaand aan deze studie heb ik 2 jaar HBO ICT gedaan en daarna
+            een aantal jaar gewerkt als
+            <a href="#">vastgoedfotograaf en cameraman</a>. Benieuwd? Stuur me
+            een berichtje!
           </p>
           <div class="aboutButtons">
             <a href="#">CONTACT</a>
-            <button class="CV">DOWNLOAD CV</button>
+            <a href="#" download>DOWNLOAD CV</a>
           </div>
         </div>
 
@@ -111,17 +113,42 @@
               transform="translate(100 100)"
             />
           </svg>
+
           <!-- <img src="assets/images/cartoon Tom.png" alt="Tom als een cartoon" /> -->
-          <img
-            src="assets/images/Tom-zonder-arm.png"
-            alt="Tom als een cartoon"
-          />
-          <img src="assets/images/Tom-arm.png" alt="Tom als een cartoon" />
+          <div class="cartoonTom">
+            <img
+              src="assets/images/Tom-zonder-arm.png"
+              alt="Tom als een cartoon"
+            />
+            <img src="assets/images/Tom-arm.png" alt="Tom als een cartoon" />
+          </div>
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div id="email">
+        <p>E-mail: <a href="mailto:tom@realafford.nl">tom@realafford.nl</a></p>
+      </div>
+      <div id="social">
+        <a href="https://www.instagram.com/tomvandroffelaar/" target="_blank">
+          <img src="assets/images/instagram.png" alt="Instagram" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/tom-van-droffelaar/"
+          target="_blank"
+        >
+          <img src="assets/images/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/TomvanD298" target="_blank">
+          <img src="assets/images/github.png" alt="GitHub" />
+        </a>
+        <a href="https://www.youtube.com/@tomvandroffelaar" target="_blank">
+          <img src="assets/images/youtube.png" alt="Youtube" />
+        </a>
+      </div>
+      <div id="name">© 2025 Tom van Droffelaar</div>
+    </footer>
     <script src="scripts/gsap.min.js"></script>
     <script src="scripts/gsap/SplitText.min.js"></script>
     <script src="scripts/script.js"></script>
