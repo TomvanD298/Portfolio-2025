@@ -6,6 +6,8 @@
     <title>Tom - Front-end Developer</title>
     <link rel="stylesheet" href="./Styles/home.css" />
     <link rel="stylesheet" href="./Styles/about.css" />
+    <link rel="stylesheet" href="./Styles/portfolio.css" />
+    <link rel="stylesheet" href="./Styles/contact.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   </head>
   <body>
@@ -13,8 +15,8 @@
       <nav id="navbar">
         <a href="#">Home</a>
         <a href="#about">Over mij</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
@@ -30,11 +32,19 @@
             het derde jaar van de studie Communicatie en Multimedia Design aan
             de Hogeschool van Amsterdam.
           </p>
-          <a href="#">PORTFOLIO →</a>
+          <a href="#portfolio">PORTFOLIO →</a>
 
           <div class="shapesLeft">
-            <div class="hexagon1"></div>
-            <div class="hexagon2"></div>
+            <img
+              class="hexagon1"
+              src="./assets/images/icons/Hexagon.png"
+              alt="Hexagon"
+            />
+            <img
+              class="hexagon2"
+              src="./assets/images/icons/Hexagon.png"
+              alt="Hexagon"
+            />
           </div>
 
           <div class="waves">
@@ -74,8 +84,16 @@
 
         <div class="homeRight">
           <div class="shapesRight">
-            <div class="hexagon3"></div>
-            <div class="hexagon4"></div>
+            <img
+              class="hexagon3"
+              src="./assets/images/icons/Hexagon.png"
+              alt="Hexagon"
+            />
+            <img
+              class="hexagon4"
+              src="./assets/images/icons/Hexagon.png"
+              alt="Hexagon"
+            />
             <div class="circle1"></div>
           </div>
         </div>
@@ -93,14 +111,16 @@
             heeft doen realiseren dat Front-end het best bij mijn interesses
             past.<br /><br />
             In mijn eerste studiejaar werd genomineerd voor de Golden Dot Awards
-            dankzij mijn werk"Popcorn Time". <br /><br />
+            dankzij mijn werk "Popcorn Time". <br /><br />
             Voorafgaand aan deze studie heb ik 2 jaar HBO ICT gedaan en daarna
             een aantal jaar gewerkt als
-            <a href="#">vastgoedfotograaf en cameraman</a>. Benieuwd? Stuur me
-            een berichtje!
+            <a href="https://tom.droffelaar.nl/" target="_blank"
+              >vastgoedfotograaf en cameraman</a
+            >.<br />
+            Benieuwd? Stuur me een berichtje!
           </p>
           <div class="aboutButtons">
-            <a href="#">CONTACT</a>
+            <a href="#contact">CONTACT</a>
             <a href="#" download>DOWNLOAD CV</a>
           </div>
         </div>
@@ -114,7 +134,7 @@
             />
           </svg>
 
-          <!-- <img src="assets/images/cartoon Tom.png" alt="Tom als een cartoon" /> -->
+          <!-- <img src="assets/images/icons/cartoon Tom.png" alt="Tom als een cartoon" /> -->
           <div class="cartoonTom">
             <img
               src="assets/images/Tom-zonder-arm.png"
@@ -124,33 +144,240 @@
           </div>
         </div>
       </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div>
+          <img
+            src="./assets/images/icons/coding.png"
+            alt="Skills"
+            class="computer with code icon"
+          />
+          <h3>Technische skills</h3>
+          <div>
+            <img
+              id="logoHTML"
+              src="./assets/images/icons/html.png"
+              alt="HTML"
+              title="HTML"
+            />
+            <img
+              id="logoCSS"
+              src="./assets/images/icons/css-3.png"
+              alt="CSS"
+              title="CSS"
+            />
+            <img
+              id="logoJS"
+              src="./assets/images/icons/js.png"
+              alt="JavaScript"
+              title="JavaScript"
+            />
+            <img
+              id="logoCSS"
+              src="./assets/images/icons/api.png"
+              alt="API"
+              title="API's"
+            />
+            <img
+              id="logoVue"
+              src="./assets/images/icons/vue.png"
+              alt="Vue"
+              title="Vue Framework"
+            />
+            <img
+              id="logoTW"
+              src="./assets/images/icons/tailwind.png"
+              alt="Tailwind"
+              title="Tailwind CSS"
+            />
+            <img
+              id="logoGit"
+              src="./assets/images/icons/github-white.png"
+              alt="Github"
+              title="GitHub"
+            />
+
+            <img
+              id="logoLiquidJS"
+              src="./assets/images/icons/liquidjs.png"
+              alt="liquidJS"
+              title="liquidJS"
+            />
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="./assets/images/icons/design.png"
+            alt="Skills"
+            class="pencil and ruler icon"
+          />
+          <h3>Design & content tools</h3>
+
+          <div>
+            <img
+              id="logoFigma"
+              src="./assets/images/icons/figma.png"
+              alt="Figma"
+              title="Figma"
+            />
+            <img
+              id="logoPhotoshop"
+              src="./assets/images/icons/photoshop.png"
+              alt="Photoshop"
+              title="Photoshop"
+            />
+            <img
+              id="logoPhotoshop"
+              src="./assets/images/icons/lightroom.png"
+              alt="Lightroom"
+              title="Lightroom"
+            />
+            <img
+              id="logoIllustrator"
+              src="./assets/images/icons/illustrator.png"
+              alt="Illustrator"
+              title="Illustrator"
+            />
+            <img
+              id="logoAfterEffects"
+              src="./assets/images/icons/aftereffects.png"
+              alt="After Effects"
+              title="After Effects"
+            />
+            <img
+              id="logoAfterEffects"
+              src="./assets/images/icons/premiere.png"
+              alt="Premiere Pro"
+              title="Premiere Pro"
+            />
+            <img
+              id="logoFinalCut"
+              src="./assets/images/icons/finalcut.png"
+              alt="Final Cut Pro"
+              title="Final Cut Pro"
+            />
+            <img
+              id="logoBlender"
+              src="./assets/images/icons/blender.png"
+              alt="Blender"
+              title="Blender"
+            />
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="./assets/images/icons//creative-thinking.png"
+            alt="Skills"
+            class="lightbulb with brain icon"
+          />
+          <h3>Werkwijze & samenwerking</h3>
+          <ul>
+            <li>SCRUM / Agile werken</li>
+            <li>Teamwork & communicatie</li>
+            <li>Zelfstandig werken</li>
+            <li>Timemanagement</li>
+            <li>Probleemoplossend denken</li>
+            <li>Klantgericht denken</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div id="filterButtons">
+          <button data-filter="all" class="active-filter">All</button>
+          <button data-filter="web">Web Design</button>
+          <button data-filter="graphic">Graphic Design</button>
+          <button data-filter="photo">Photography</button>
+        </div>
+
+        <div class="grid"></div>
+      </section>
+
+      <div class="curvedOverlay"></div>
+
+      <section id="contact">
+        <h2>Contact</h2>
+
+        <div>
+          <p>Wil je samenwerken?</p>
+          <p>
+            Zie je een samenwerking met mij zitten? Of heb je een andere vraag?
+            Neem gerust contact met mij op!
+          </p>
+        </div>
+
+        <div class="contactInfo">
+          <div>
+            <img src="./assets/images/icons/location.png" alt="location" />
+            <p>Hoofddorp</p>
+          </div>
+          <div>
+            <img src="./assets/images/icons/phone.png" alt="Phone" />
+            <p><a href="tel:+31612345678">+31 6 20327955</a></p>
+          </div>
+          <div>
+            <img src="./assets/images/icons/email.png" alt="email" />
+            <p>
+              <a href="mailto:tom@realafford.nl">tom@realafford.nl</a>
+            </p>
+          </div>
+        </div>
+        <hr />
+      </section>
     </main>
 
     <footer>
-      <div id="email">
-        <p>E-mail: <a href="mailto:tom@realafford.nl">tom@realafford.nl</a></p>
-      </div>
-      <div id="social">
-        <a href="https://www.instagram.com/tomvandroffelaar/" target="_blank">
-          <img src="assets/images/instagram.png" alt="Instagram" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/tom-van-droffelaar/"
-          target="_blank"
-        >
-          <img src="assets/images/linkedin.png" alt="LinkedIn" />
-        </a>
-        <a href="https://github.com/TomvanD298" target="_blank">
-          <img src="assets/images/github.png" alt="GitHub" />
-        </a>
-        <a href="https://www.youtube.com/@tomvandroffelaar" target="_blank">
-          <img src="assets/images/youtube.png" alt="Youtube" />
-        </a>
-      </div>
-      <div id="name">© 2025 Tom van Droffelaar</div>
+      <section>
+        <div id="email">
+          <p>
+            E-mail: <a href="mailto:tom@realafford.nl">tom@realafford.nl</a>
+          </p>
+        </div>
+        <div id="social">
+          <a href="https://www.instagram.com/tomvandroffelaar/" target="_blank">
+            <img src="assets/images/icons/instagram.png" alt="Instagram" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tom-van-droffelaar/"
+            target="_blank"
+          >
+            <img src="assets/images/icons/linkedin.png" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/TomvanD298" target="_blank">
+            <img src="assets/images/icons/github.png" alt="GitHub" />
+          </a>
+          <a href="https://www.youtube.com/@tomvandroffelaar" target="_blank">
+            <img src="assets/images/icons/youtube.png" alt="Youtube" />
+          </a>
+        </div>
+        <div id="name">© 2025 Tom van Droffelaar</div>
+      </section>
     </footer>
+
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+
+        <h2 id="modal-title"></h2>
+        <img id="modal-img" src="" alt="Project Image" />
+        <p id="modal-description"></p>
+        <p><strong>Technologies:</strong> <span id="modal-tech"></span></p>
+
+        <div class="modal-buttons">
+          <a id="modal-live" href="#" target="_blank">View Live</a>
+          <a id="modal-github" href="#" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
     <script src="scripts/gsap.min.js"></script>
+    <script src="scripts/gsap/Flip.min.js"></script>
     <script src="scripts/gsap/SplitText.min.js"></script>
+
     <script src="scripts/script.js"></script>
   </body>
 </html>

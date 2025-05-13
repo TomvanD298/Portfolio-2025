@@ -14,14 +14,22 @@
 
   width: 100dvw;
   height: fit-content;
-  padding: 10dvh 0 30dvh 0;
+  padding: 10dvh 0 50dvh 0;
+
+  p {
+    font-size: 1.1em;
+  }
+
+  p a {
+    color: var(--primary-color);
+  }
 }
 
 .curvedOverlay {
   position: relative;
   width: 100dvw;
   height: 10dvh;
-  margin-top: -10dvh;
+  margin-top: -4em;
   z-index: 10;
   clip-path: polygon(
     100% 100%,
@@ -82,13 +90,17 @@
   /* background-color: red; */
 }
 
+.curvedOverlay:last-of-type {
+  background-color: var(--primary-color);
+}
+
 .aboutText {
   grid-area: 1 / 2 / 2 / 3;
   width: 60%;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 200;
   line-height: 3rem;
   margin-bottom: 1rem;
@@ -185,4 +197,122 @@ h2 {
     background-color: var(--text-white);
     color: var(--secundary-color);
   }
+}
+
+/* --------------------------------------------------------------------------------- */
+
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100dvw;
+  align-items: stretch;
+  margin-top: -30dvh;
+  gap: 2rem;
+
+  h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  div {
+    width: 30%;
+    min-width: 350px;
+    background: linear-gradient(var(--background-color) 50%, black 100%);
+    padding: 3em;
+    border-radius: 8px;
+
+    img {
+      width: 30%;
+      max-width: 100px;
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+    li {
+      margin: 0.3em 0;
+    }
+  }
+
+  div div {
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.5em;
+    padding: 0;
+    background: transparent;
+
+    p {
+      font-size: 1.5em;
+    }
+
+    img {
+      width: 20%;
+      min-width: 50px;
+      max-width: 60px;
+      background-color: var(--background-color);
+      border-radius: 8px;
+      padding: 0.5em;
+    }
+  }
+}
+
+#logoHTML:hover {
+  box-shadow: 0 0 20px #e34c26;
+}
+
+#logoCSS:hover {
+  box-shadow: 0 0 20px #29a5d1;
+}
+
+#logoJS:hover {
+  box-shadow: 0 0 20px #f7df1e;
+}
+
+#logoVue:hover {
+  box-shadow: 0 0 20px #42b883;
+}
+
+#logoTW:hover {
+  box-shadow: 0 0 20px #50b6b4;
+}
+
+#logoGit:hover {
+  box-shadow: 0 0 20px #fff;
+}
+
+#logoLiquidJS:hover {
+  box-shadow: 0 0 20px #0484cf;
+}
+
+#logoFigma:hover {
+  box-shadow: 0 0 20px #f24e1e;
+}
+
+#logoPhotoshop:hover {
+  box-shadow: 0 0 20px #31a8ff;
+}
+
+#logoIllustrator:hover {
+  box-shadow: 0 0 20px #f6a600;
+}
+
+#logoAfterEffects:hover {
+  box-shadow: 0 0 20px #9a9afd;
+}
+
+#logoFinalCut:hover {
+  box-shadow: 0 0 20px #fcfcfc;
+}
+
+#logoBlender:hover {
+  box-shadow: 0 0 20px #f5792a;
 }

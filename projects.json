@@ -1,0 +1,94 @@
+[
+  {
+    "title": "Bierweer",
+    "category": "web",
+    "description": "Ontwikkel in vier weken een (mobiele) webapplicatie die qua gebruikerservaring kan concurreren met native mobiele apps. Je start met een server-side gerenderde webapplicatie en verbetert deze stapsgewijs door gebruik te maken van moderne webtechnologieën en beschikbare web API’s.",
+    "tech": "Tiny HTTP, LiquidJS, API's",
+    "image": "./assets/images/portfolio/bierweer.png",
+    "subtext": "Bierweer",
+    "link": "#",
+    "github": "#"
+  },
+  {
+    "title": "Human Centred Design",
+    "category": "web",
+    "description": "A responsive website for mountain tours.",
+    "tech": "HTML, CSS, JavaScript",
+    "image": "./assets/images/portfolio/HCD.png",
+    "subtext": "Appboard voor in de trein",
+    "link": "#",
+    "github": "#"
+  },
+    {
+    "title": "CSS To The Rescue",
+    "category": "web",
+    "description": "A responsive website for mountain tours.",
+    "tech": "HTML, CSS, JavaScript",
+    "image": "./assets/images/portfolio/backtothefuture.png",
+    "subtext": "Delorean with CSS",
+    "link": "#",
+    "github": "#"
+  },
+    {
+    "title": "Browser Tech",
+    "category": "web",
+    "description": "A responsive website for mountain tours.",
+    "tech": "HTML, CSS, JavaScript",
+    "image": "./assets/images/portfolio/BT.png",
+    "subtext": "Belastingformulier voor de NS",
+    "link": "#",
+    "github": "#"
+  },
+    {
+    "title": "Hackaton",
+    "category": "web",
+    "description": "A responsive website for mountain tours.",
+    "tech": "HTML, CSS, JavaScript",
+    "image": "./assets/images/portfolio/hackaton.png",
+    "subtext": "Hackaton",
+    "link": "#",
+    "github": "#"
+  },
+    {
+    "title": "Aperture",
+    "category": "graphic",
+    "description": "A responsive website for mountain tours.",
+    "tech": "Figma",
+    "image": "./assets/images/portfolio/aperture.jpeg",
+    "subtext": "Aperture",
+    "link": "#",
+    "github": "#"
+  },
+    {
+    "title": "FED",
+    "category": "web",
+    "description": "A responsive website for mountain tours.",
+    "tech": "HTML, CSS, JavaScript",
+    "image": "./assets/images/portfolio/fed.png",
+    "subtext": "Aston Martin website",
+    "link": "#",
+    "github": "#"
+  },
+    {
+    "title": "Powder",
+    "category": "graphic",
+    "description": "A responsive website for mountain tours.",
+    "tech": "HTML, CSS, JavaScript",
+    "image": "./assets/images/portfolio/powder.jpeg",
+    "subtext": "Powder",
+    "link": "#",
+    "github": "#"
+  }
+  ,
+    {
+    "title": "Popcorn Time",
+    "category": "graphic",
+    "description": "A responsive website for mountain tours.",
+    "tech": "HTML, CSS, JavaScript",
+    "image": "./assets/images/portfolio/popcorn.png",
+    "subtext": "Popcorn Time",
+    "link": "#",
+    "github": "#"
+  }
+
+]
