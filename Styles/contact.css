@@ -22,6 +22,7 @@
   width: 80dvw;
   margin: 2em auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 2em;
@@ -103,5 +104,40 @@ footer section {
 
   img:hover {
     filter: invert(100%);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #contactContainer {
+    width: 90dvw;
+
+    p {
+      width: 100%;
+    }
+  }
+
+  #contactInfo {
+    width: 90dvw;
+
+    div {
+      gap: 2em;
+    }
+
+    p {
+      width: fit-content;
+    }
+  }
+
+  footer section {
+    width: 100%;
+    justify-content: center;
+
+    #email {
+      display: none;
+    }
+
+    #name {
+      font-size: 0.7em;
+    }
   }
 }
