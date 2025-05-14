@@ -1,3 +1,7 @@
+/* --------------------------------------------------------------------------------- */
+/* ------------------------------------ Filters ------------------------------------ */
+/* --------------------------------------------------------------------------------- */
+
 #portfolio {
   margin: 10em auto;
   width: 80dvw;
@@ -12,12 +16,13 @@
   #filterButtons {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
 
   button {
-    margin: 0 10px;
+    margin: 0 10px 2em 10px;
     padding: 10px 20px;
     cursor: pointer;
     background: none;
@@ -27,7 +32,6 @@
     color: var(--text-white);
     font-size: 1.2em;
 
-    margin-bottom: 2em;
     transition: 0.3s ease, color 0.3s ease;
   }
 
@@ -48,6 +52,22 @@
   padding: 10px 20px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 700px) {
+  #portfolio button {
+    font-size: 1em;
+    margin: 0;
+    padding: 1em;
+  }
+
+  #filterButtons {
+    margin-bottom: 2em;
+  }
+}
+
+/* --------------------------------------------------------------------------------- */
+/* -------------------------------------- Cards ------------------------------------ */
+/* --------------------------------------------------------------------------------- */
 
 .grid {
   display: grid;
@@ -88,6 +108,13 @@
 
 .card:hover .subtext {
   display: block;
+}
+
+@media only screen and (max-width: 700px) {
+  .card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
 }
 
 /* --------------------------------------------------------------------------------- */
@@ -156,8 +183,6 @@
   color: var(--primary-color);
   cursor: pointer;
   transition: 0.3s ease;
-  /* background-color: white;
-  border-radius: 50%; */
 }
 
 .close-btn:hover {

@@ -120,7 +120,7 @@ footer section {
     width: 90dvw;
 
     div {
-      gap: 2em;
+      width: fit-content;
     }
 
     p {
