@@ -87,7 +87,6 @@
     100% 26.77%
   );
   background-color: var(--secundary-color);
-  /* background-color: red; */
 }
 
 .curvedOverlay:last-of-type {

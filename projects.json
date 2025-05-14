@@ -4,7 +4,7 @@
     "category": "web",
     "description": "Ontwikkel in vier weken een (mobiele) webapplicatie die qua gebruikerservaring kan concurreren met native mobiele apps. Je start met een server-side gerenderde webapplicatie en verbetert deze stapsgewijs door gebruik te maken van moderne webtechnologieën en beschikbare web API’s.",
     "tech": "Tiny HTTP, LiquidJS, API's",
-    "image": "./assets/images/portfolio/bierweer.png",
+    "image": "./assets/images/portfolio/Bierweer.png",
     "subtext": "Bierweer",
     "link": "#",
     "github": "#"
@@ -44,7 +44,7 @@
     "category": "web",
     "description": "A responsive website for mountain tours.",
     "tech": "HTML, CSS, JavaScript",
-    "image": "./assets/images/portfolio/hackaton.png",
+    "image": "./assets/images/portfolio/Hackaton.png",
     "subtext": "Hackaton",
     "link": "#",
     "github": "#"
@@ -64,7 +64,7 @@
     "category": "web",
     "description": "A responsive website for mountain tours.",
     "tech": "HTML, CSS, JavaScript",
-    "image": "./assets/images/portfolio/fed.png",
+    "image": "./assets/images/portfolio/Fed.png",
     "subtext": "Aston Martin website",
     "link": "#",
     "github": "#"
@@ -85,7 +85,7 @@
     "category": "graphic",
     "description": "A responsive website for mountain tours.",
     "tech": "HTML, CSS, JavaScript",
-    "image": "./assets/images/portfolio/popcorn.png",
+    "image": "./assets/images/portfolio/Popcorn.png",
     "subtext": "Popcorn Time",
     "link": "#",
     "github": "#"

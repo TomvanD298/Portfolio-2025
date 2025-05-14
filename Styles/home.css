@@ -181,6 +181,23 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 700px) {
+  header nav {
+    justify-content: space-evenly;
+    align-items: center;
+    transition: top 0.3s;
+
+    a {
+      padding: 0;
+    }
+
+    a:last-of-type {
+      margin-right: 0;
+      padding: 0.5em;
+    }
+  }
+}
+
 /* --------------------------------------------------------------------------------- */
 /* ----------------------------------- Shapes Left --------------------------------- */
 /* --------------------------------------------------------------------------------- */
