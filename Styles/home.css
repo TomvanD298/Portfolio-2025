@@ -3,6 +3,11 @@
   src: url(../assets/fonts/tourney/Tourney-SemiBold.otf);
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url(../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
 :root {
   --primary-color: #3bd26c;
   --secundary-color: #1a2b33;
@@ -35,6 +40,8 @@ body {
   background-color: var(--background-color);
   color: var(--text-white);
   overflow-x: hidden;
+
+  font-weight: 600;
 }
 
 header nav {

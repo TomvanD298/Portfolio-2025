@@ -30,7 +30,7 @@
   width: 100dvw;
   height: 10dvh;
   margin-top: -4em;
-  z-index: 10;
+  z-index: 8;
   clip-path: polygon(
     100% 100%,
     0% 100%,
@@ -100,7 +100,7 @@
 
 h2 {
   font-size: 2.5rem;
-  font-weight: 200;
+  font-weight: 600;
   line-height: 3rem;
   margin-bottom: 1rem;
   color: var(--primary-color);

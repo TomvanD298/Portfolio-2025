@@ -34,7 +34,7 @@
 
 #contactInfo {
   background-color: var(--background-color);
-  padding: 2em;
+  padding: 2em 6em;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
