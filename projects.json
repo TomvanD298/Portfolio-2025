@@ -2,93 +2,172 @@
   {
     "title": "Bierweer",
     "category": "web",
-    "description": "Ontwikkel in vier weken een (mobiele) webapplicatie die qua gebruikerservaring kan concurreren met native mobiele apps. Je start met een server-side gerenderde webapplicatie en verbetert deze stapsgewijs door gebruik te maken van moderne webtechnologieën en beschikbare web API’s.",
     "tech": "Tiny HTTP, LiquidJS, API's",
     "image": "./assets/images/portfolio/Bierweer.png",
     "subtext": "Bierweer",
+    "assignmentDescription": "Ontwikkel in vier weken een (mobiele) webapplicatie die qua gebruikerservaring kan concurreren met native mobiele apps. Je start met een server-side gerenderde webapplicatie en verbetert deze stapsgewijs door gebruik te maken van moderne webtechnologieën en beschikbare web API’s.",
+    "assignmentType": "Individueel",
+    "assignmentCourse": "Minor Web - API",
+    "idea": "Een slimme bieraanbevelingsapp die locatie en het weer gebruikt om je het perfecte biertje te bieden.",
+    "process": "Benieuwd naar mijn volledige proces? Neem gerust een kijkje op mijn GitHub-pagina.",
+    "screenshots": [
+      "./assets/images/portfolio/bierweer-1.png",
+      "./assets/images/portfolio/bierweer-2.png",
+      "./assets/images/portfolio/bierweer-3.png"
+    ],
+    "link": "https://bierweer.onrender.com/",
+    "github": "https://github.com/TomvanD298/BierWeer_API-24-25"
+  },
+  {
+    "title": "Appboard voor in de trein",
+    "category": "web",
+    "tech": "HTML, CSS, JavaScript",
+    "image": "./assets/images/portfolio/HCD.png",
+    "subtext": "Appboard voor in de trein",
+    "assignmentDescription": "We hebben drie mensen uitgenodigd die elke week langs komen. Jullie gaan voor één van deze mensen een prototype ontwerpen, heel specifiek alleen voor deze persoon. Deze mensen gebruiken het web op hun eigen manier. Jij zorgt er voor dat jouw prototype optimaal voor de voorkeuren van deze ene persoon werken.\n \n Ontwikkel en test een tailormade applicatie die optimaal functioneert wanneer de eindgebruiker zich in een rijdende trein bevindt.",
+    "assignmentType": "Individueel",
+    "assignmentCourse": "Minor Web - Human Centred Design",
+    "idea": "Het idee is om een app te ontwikkelen waarmee de eindgebruiker eenvoudig volledige zinnen kan versturen zonder deze handmatig te hoeven typen. De gebruiker stelt vooraf een persoonlijke bibliotheek samen met vaak gebruikte zinnen, onderverdeeld in categorieën.\n \nDoor zinnen te combineren kan hij snel korte berichten of uitgebreide verhalen samenstellen. Deze zinnen kunnen direct gedeeld worden via WhatsApp of andere communicatie-apps, wat communicatie sneller en minder inspannend maakt",
+    "process": "Benieuwd naar mijn volledige proces? Neem gerust een kijkje op mijn GitHub-pagina..",
+    "screenshots": [
+      "./assets/images/portfolio/hcd-1.png",
+      "./assets/images/portfolio/hcd-2.png",
+      "./assets/images/portfolio/hcd-3.png"
+    ],
+    "link": "https://tomvand298.github.io/WEB-HCD-24-25/",
+    "github": "https://github.com/TomvanD298/WEB-HCD-24-25"
+  },
+  {
+    "title": "Delorean with CSS",
+    "category": "web",
+    "tech": "HTML, CSS, JavaScript",
+    "image": "./assets/images/portfolio/backtothefuture.png",
+    "subtext": "Delorean with CSS",
+    "assignmentDescription": "In deze vierweekse cursus ga je experimenteren met CSS-technieken die nieuw voor je zijn. Je creëert een innovatieve, experimentele en plezierige ervaring – met alleen pure HTML en pure CSS (frameworks, preprocessors, libraries en JavaScript zijn niet toegestaan).",
+    "assignmentType": "Individueel",
+    "assignmentCourse": "Minor Web - CSS To The Rescue",
+    "idea": "Een interactief DeLorean-dashboard waarmee je kunt tijdreizen. Verander de tijd en de achtergrond past zich aan – alsof je echt in een andere periode belandt. Start de motor, draai aan het stuur en ervaar het allemaal… met alleen HTML en CSS.",
+    "process": "Benieuwd naar mijn volledige proces? Neem gerust een kijkje op mijn GitHub-pagina.",
+    "screenshots": [
+      "./assets/images/portfolio/delorean-1.png",
+      "./assets/images/portfolio/delorean-2.png",
+      "./assets/images/portfolio/delorean-3.png"
+    ],
     "link": "#",
     "github": "#"
   },
   {
-    "title": "Human Centred Design",
-    "category": "web",
-    "description": "A responsive website for mountain tours.",
-    "tech": "HTML, CSS, JavaScript",
-    "image": "./assets/images/portfolio/HCD.png",
-    "subtext": "Appboard voor in de trein",
-    "link": "#",
-    "github": "#"
-  },
-    {
-    "title": "CSS To The Rescue",
-    "category": "web",
-    "description": "A responsive website for mountain tours.",
-    "tech": "HTML, CSS, JavaScript",
-    "image": "./assets/images/portfolio/backtothefuture.png",
-    "subtext": "Delorean with CSS",
-    "link": "#",
-    "github": "#"
-  },
-    {
     "title": "Browser Tech",
     "category": "web",
-    "description": "A responsive website for mountain tours.",
     "tech": "HTML, CSS, JavaScript",
     "image": "./assets/images/portfolio/BT.png",
     "subtext": "Belastingformulier voor de NS",
+    "assignmentDescription": "Automatiseert invullen van NS-belastingformulieren met progressive enhancement.",
+    "assignmentType": "Individueel",
+    "assignmentCourse": "Browser Technologies",
+    "idea": "Mobiele site die gegevens automatisch ophaalt en invult.",
+    "process": "PE en FormData API, met fallback logica.",
+    "screenshots": [
+      "./assets/images/portfolio/bt-1.png",
+      "./assets/images/portfolio/bt-2.png",
+      "./assets/images/portfolio/bt-3.png"
+    ],
     "link": "#",
     "github": "#"
   },
-    {
+  {
     "title": "Hackaton",
     "category": "web",
-    "description": "A responsive website for mountain tours.",
     "tech": "HTML, CSS, JavaScript",
     "image": "./assets/images/portfolio/Hackaton.png",
     "subtext": "Hackaton",
+    "assignmentDescription": "Een snelle prototype sprint voor een thema-opdracht.",
+    "assignmentType": "Groepsproject",
+    "assignmentCourse": "Minor Makers Lab",
+    "idea": "Slimme sensorinterface voor stedelijke luchtkwaliteit.",
+    "process": "3 dagen prototyping, Arduino + webinterface.",
+    "screenshots": [
+      "./assets/images/portfolio/hack-1.png",
+      "./assets/images/portfolio/hack-2.png",
+      "./assets/images/portfolio/hack-3.png"
+    ],
     "link": "#",
     "github": "#"
   },
-    {
+  {
     "title": "Aperture",
     "category": "graphic",
-    "description": "A responsive website for mountain tours.",
     "tech": "Figma",
     "image": "./assets/images/portfolio/aperture.jpeg",
     "subtext": "Aperture",
+    "assignmentDescription": "Visuele branding en app-concept voor een fotografieplatform.",
+    "assignmentType": "Individueel",
+    "assignmentCourse": "Visual Interface Design",
+    "idea": "Een high-end platform dat de community centraal stelt.",
+    "process": "Moodboards, logo’s, UI kit in Figma.",
+    "screenshots": [
+      "./assets/images/portfolio/aperture-1.png",
+      "./assets/images/portfolio/aperture-2.png",
+      "./assets/images/portfolio/aperture-3.png"
+    ],
     "link": "#",
     "github": "#"
   },
-    {
+  {
     "title": "FED",
     "category": "web",
-    "description": "A responsive website for mountain tours.",
     "tech": "HTML, CSS, JavaScript",
     "image": "./assets/images/portfolio/Fed.png",
     "subtext": "Aston Martin website",
+    "assignmentDescription": "Frontend build voor een responsive auto showcase website.",
+    "assignmentType": "Individueel",
+    "assignmentCourse": "Frontend Development",
+    "idea": "Clean layout met smooth scrolling en video background.",
+    "process": "HTML5 video, CSS Grid, custom scroll FX.",
+    "screenshots": [
+      "./assets/images/portfolio/fed-1.png",
+      "./assets/images/portfolio/fed-2.png",
+      "./assets/images/portfolio/fed-3.png"
+    ],
     "link": "#",
     "github": "#"
   },
-    {
+  {
     "title": "Powder",
     "category": "graphic",
-    "description": "A responsive website for mountain tours.",
     "tech": "HTML, CSS, JavaScript",
     "image": "./assets/images/portfolio/powder.jpeg",
     "subtext": "Powder",
+    "assignmentDescription": "Visueel project met sterke typografie en kleurcontrast.",
+    "assignmentType": "Individueel",
+    "assignmentCourse": "Graphic Design",
+    "idea": "Experimentele opmaak met grote lettertypes en pastelkleuren.",
+    "process": "Figma ontwerp + HTML implementatie met SVG’s.",
+    "screenshots": [
+      "./assets/images/portfolio/powder-1.png",
+      "./assets/images/portfolio/powder-2.png",
+      "./assets/images/portfolio/powder-3.png"
+    ],
     "link": "#",
     "github": "#"
-  }
-  ,
-    {
+  },
+  {
     "title": "Popcorn Time",
     "category": "graphic",
-    "description": "A responsive website for mountain tours.",
     "tech": "HTML, CSS, JavaScript",
     "image": "./assets/images/portfolio/Popcorn.png",
     "subtext": "Popcorn Time",
+    "assignmentDescription": "Een filmplatform UI met focus op gebruiksgemak en sfeer.",
+    "assignmentType": "Individueel",
+    "assignmentCourse": "UI Design",
+    "idea": "Donker thema met focus op content imagery.",
+    "process": "Card UI, scrollable carousel, font pairing.",
+    "screenshots": [
+      "./assets/images/portfolio/popcorn-1.png",
+      "./assets/images/portfolio/popcorn-2.png",
+      "./assets/images/portfolio/popcorn-3.png"
+    ],
     "link": "#",
     "github": "#"
   }
-
 ]

@@ -20,6 +20,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) var(--background-color);
 }
 
 html {
@@ -40,7 +43,7 @@ header nav {
   width: 100dvw;
   height: fit-content;
   justify-content: flex-end;
-  z-index: 999;
+  z-index: 9;
   transition: top 0.3s;
 
   a {
