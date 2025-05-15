@@ -54,6 +54,13 @@ header nav {
   transition: top 0.3s;
   gap: 1em;
 
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+
   a {
     padding: 10px 15px;
     text-decoration: none;
@@ -202,16 +209,12 @@ h1 {
   header nav {
     justify-content: space-evenly;
     align-items: center;
-
-    /* From https://css.glass */
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.9px);
-    -webkit-backdrop-filter: blur(5.9px);
+    width: 90dvw;
+    margin-left: 5dvw;
 
     a {
       padding: 0;
+      font-size: 0.9em;
     }
 
     a:last-of-type {

@@ -118,14 +118,21 @@ footer section {
 
   #contactInfo {
     width: 90dvw;
+    padding: 2em;
 
     div {
-      width: fit-content;
+      width: 100%;
+      gap: 2em;
+      justify-content: center;
     }
 
     p {
-      width: fit-content;
+      width: 50%;
     }
+  }
+
+  footer {
+    height: 10dvh;
   }
 
   footer section {

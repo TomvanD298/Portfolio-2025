@@ -136,8 +136,26 @@ fetch("./projects.json")
         modalTitle.innerText = p.title;
         modalTech.innerText = p.tech;
         modalImg.src = p.image;
-        modalLive.href = p.link;
-        modalGithub.href = p.github;
+
+        if (p.category === "photo") {
+          modalImg.style.height = "100%";
+        } else {
+          modalImg.style.height = ""; // reset to CSS default (40%)
+        }
+
+        if (p.link && p.link !== "#") {
+          modalLive.style.display = "inline-block";
+          modalLive.href = p.link;
+        } else {
+          modalLive.style.display = "none";
+        }
+
+        if (p.github && p.github !== "#") {
+          modalGithub.style.display = "inline-block";
+          modalGithub.href = p.github;
+        } else {
+          modalGithub.style.display = "none";
+        }
 
         assignmentDesc.innerText = p.assignmentDescription;
         assignmentType.innerText = p.assignmentType;

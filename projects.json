@@ -57,7 +57,7 @@
     "github": "https://github.com/TomvanD298/BackToTheFuture"
   },
   {
-    "title": "Belastingformulier voor de NS",
+    "title": "Belasting voor de NS",
     "category": "web",
     "tech": "HTML, CSS, JavaScript",
     "image": "./assets/images/portfolio/BT.png",
@@ -80,17 +80,36 @@
     "tech": "HTML, CSS, JavaScript",
     "image": "./assets/images/portfolio/Hackaton.png",
     "subtext": "Hackaton",
-    "assignmentDescription": "Een snelle prototype sprint voor een thema-opdracht.",
+    "assignmentDescription": "Ontwerp en bouw een digitale loftuiting voor de vrouwen in tech die de wereld veranderen en/of veranderd hebben (gebruik daarbij de data uit de API).\n Doe onderzoek naar experimentele technieken en gebruik er twee of meer zodat de loftuiting als showcase voor die technieken gebruikt kan worden.",
     "assignmentType": "Groepsproject",
     "assignmentCourse": "Jaar 3 - Minor Web - Hackaton",
-    "idea": "Slimme sensorinterface voor stedelijke luchtkwaliteit.",
-    "process": "3 dagen prototyping, Arduino + webinterface.",
+    "idea": "Een applicatie die op Mario Kart is geinspireerd. Hier kan je door de vrouwen heen bladeren en ze zo in de spotlight zetten.",
+    "process": "Binnen 3 dagen een product gemaakt samen met teamgenoten. Hierbij heb ik de leiding genomen en de taken verdeeld. ik heb de repo gemaakt, en de codepens samengevoegd die ik van mij teamgenoten heb gekregen. \n \n Voor dit vak moesten wij gebruik maken van nieuwe CSS technieken. \n Wij hebben gekozen voor sibling-index(), sibling-count() en Customizable selects. \n De data kwam uit een API en deze moesten wij dus inladen in de pagina.",
     "screenshots": [
       "./assets/images/portfolio/hack-1.png",
       "./assets/images/portfolio/hack-2.png",
       "./assets/images/portfolio/hack-3.png"
     ],
-    "link": "#",
+    "link": "https://tomvand298.github.io/Hackaton/",
+    "github": "https://github.com/TomvanD298/Hackaton"
+  },
+    {
+    "title": "SolAR",
+    "category": "graphic",
+    "tech": "Unity",
+    "image": "./assets/images/portfolio/solar.png",
+    "subtext": "SolAR",
+    "assignmentDescription": "Hoe ontwikkel ik een educatieve en interactieve AR-ervaring waarin gebruikers het zonnestelsel kunnen ontdekken in een museum?",
+    "assignmentType": "Individueel",
+    "assignmentCourse": "Jaar 3 - Designing Emerging Tech - Eindopdracht",
+    "idea": "Met SolAR kunnen bezoekers in musea zoals de Space Expo of het Planetarium in Artis op een interactieve manier de planeten in ons zonnestelsel verkennen. Door middel van een AR-bril stappen ze in een fascinerende virtuele ruimte waar ze de planeten met hun eigen handen kunnen vastpakken, vergroten of verkleinen. Zo ontdekken ze op speelse wijze interessante feitjes over elke planeet.",
+    "process": "Voor mijn onderzoek bezocht ik het Space Expo in Noordwijk, waar ik merkte dat er weinig informatie was over het zonnestelsel. Dit inspireerde het concept SolAR: een educatieve AR-ervaring voor kinderen van 10-14 jaar, waarin bezoekers via een Meta Quest 3S-bril interactieve ontdekkingen doen in het zonnestelsel. Ze kunnen planeten vastpakken, schalen en roteren, terwijl een mascotte, Astro, luchtige en leerzame info deelt.\n\nHet prototype ontwikkelde ik met Unity en handtracking, wat technisch uitdagend was, maar leerzaam. Ik testte schaal en interactie van de planeten en voegde educatieve elementen toe. Hoewel de tijdsplanning lastig bleek, ben ik trots op het resultaat en heb ik veel geleerd over AR-ontwikkeling, Unity en het zonnestelsel.",
+    "screenshots": [
+      "./assets/images/portfolio/solar.png",
+      "./assets/images/portfolio/solar-2.png",
+      "./assets/images/portfolio/solar-3.png"
+    ],
+    "link": "https://www.youtube.com/watch?v=TNGiG6nhSVE",
     "github": "#"
   },
   {
@@ -99,18 +118,18 @@
     "tech": "Figma",
     "image": "./assets/images/portfolio/aperture.jpeg",
     "subtext": "Aperture",
-    "assignmentDescription": "Visuele branding en app-concept voor een fotografieplatform.",
+    "assignmentDescription": "Bij dit project moesten we een online ontwerp maken ter aanvulling van de papieren versie International Student Guide Amsterdam. Hier moesten we een prototype van bouwen in eigen ontwerp met HTML en CSS. Het project mocht alleen uit eigen werk bestaan.",
     "assignmentType": "Individueel",
-    "assignmentCourse": "Visual Interface Design",
-    "idea": "Een high-end platform dat de community centraal stelt.",
-    "process": "Moodboards, logo’s, UI kit in Figma.",
+    "assignmentCourse": "Jaar 2 - ",
+    "idea": "Om als internationale student Amsterdam beter te leren kennen heb ik een foto-app ontwikkeld. Door elke dag een specifiek onderwerp te fotograferen, leer je de mooie plekken, kleine straatjes en verschillende grachten van Amsterdam kennen door een andere lens. Bij elk onderwerp wordt wat informatie gegeven hoe je het perfecte plaatje kan schieten. Daarnaast kan je foto's delen met vrienden, hun foto's bekijken en mensen volgen. \n \nVoor dit prototype heb ik het onderwerp 'Reflectie' gekozen.",
+    "process": "Het project bestond uit drie korte sprints van een week. In de eerste week heb ik een moodboard, schetsen en een eerste mockup gemaakt. \nWeek 2 heb ik een brainstormsessie gehouden over een logo en een naam. Ook ben ik Amsterdam in gegaan om foto's te maken voor de content. \nWeek 3 bestond uit het finetunen en het maken van een design rationale.",
     "screenshots": [
-      "./assets/images/portfolio/aperture-1.png",
-      "./assets/images/portfolio/aperture-2.png",
-      "./assets/images/portfolio/aperture-3.png"
+      "./assets/images/portfolio/aperture-1.jpg",
+      "./assets/images/portfolio/aperture-2.jpg",
+      "./assets/images/portfolio/aperture-3.jpg"
     ],
-    "link": "#",
-    "github": "#"
+    "link": "https://tomvand298.github.io/Aperture/",
+    "github": "https://github.com/TomvanD298/Aperture"
   },
   {
     "title": "FED",
@@ -118,55 +137,103 @@
     "tech": "HTML, CSS, JavaScript",
     "image": "./assets/images/portfolio/Fed.png",
     "subtext": "Aston Martin website",
-    "assignmentDescription": "Frontend build voor een responsive auto showcase website.",
+    "assignmentDescription": "Werk 2 verschillende pagina’s van een website uit met ‘nette’ vanilla HTML, CSS en Javascript.\n- met aandacht voor toegankelijkheid, responsiveness en details.",
     "assignmentType": "Individueel",
-    "assignmentCourse": "Frontend Development",
-    "idea": "Clean layout met smooth scrolling en video background.",
-    "process": "HTML5 video, CSS Grid, custom scroll FX.",
+    "assignmentCourse": "Jaar 2 - Frontend Development",
+    "idea": "Ik mocht voor dit vak een website naar keuze na gaan bouwen. Ik heb de website van Aston Martin gekozen. Deze vond ik visueel erg aantrekkelijk en een leuke uitdaging om na te maken met CSS. \n Ook zitten er een aantal javascript elementen in die leuk zijn om na te maken. \n \nVoor deze opdracht heb ik gekozen voor 'responsiveness'.",
+    "process": "Ik ben begonnen met het goed bestuderen van de originele website. Hier heb ik screenshots en een breakdown van gemaakt van welke elementen er allemaal op de pagina te vinden zijn. \nVervolgens moesten we ook een toegankelijkheidstest doen op de echte website. \nDe volgende stap was alle media van de orginele website downloaden. Met een tooltje kon ik dit allemaal binnen halen. \nToen ben ik begonnen met het bouwen van de grote elementen. De video caroussel was de grootste uitdaging. Hier heb ik lang over gedaan omdat het best complex was.",
     "screenshots": [
       "./assets/images/portfolio/fed-1.png",
-      "./assets/images/portfolio/fed-2.png",
+      "./assets/images/portfolio/fed-2.jpeg",
       "./assets/images/portfolio/fed-3.png"
     ],
-    "link": "#",
-    "github": "#"
+    "link": "https://tomvand298.github.io/BlokWeb/",
+    "github": "https://github.com/TomvanD298/BlokWeb"
   },
   {
     "title": "Powder",
     "category": "graphic",
-    "tech": "HTML, CSS, JavaScript",
+    "tech": "Figma",
     "image": "./assets/images/portfolio/powder.jpeg",
     "subtext": "Powder",
-    "assignmentDescription": "Visueel project met sterke typografie en kleurcontrast.",
+    "assignmentDescription": "Bedenk en ontwerp een multi-device ervaring voor een bepaalde activiteit (reizen, fitness, bioscoop bezoek, ...).Denk met name aan de gebruikersdoelen die telkens voor, tijdens en na deze activiteit belangrijk zijn, en welk device in welk stadium het meest geschikt zou zijn.",
     "assignmentType": "Individueel",
-    "assignmentCourse": "Graphic Design",
-    "idea": "Experimentele opmaak met grote lettertypes en pastelkleuren.",
-    "process": "Figma ontwerp + HTML implementatie met SVG’s.",
+    "assignmentCourse": "Jaar 2 - Project Responsive Multi Device Design ",
+    "idea": "Een van mijn favoriete activiteiten is snowboarden. Hierbij wil ik graag altijd mijn snelheid, afstand etc. bijhouden. Er bestaan dergelijke ski-track apps, maar nog niks met interactieve kaarten of communities. \n \nMijn idee is een app waar je een tracker hebt, een interactieve kaart om je route te plannen en een kleine community om dingen met je vrienden te delen. \n \nVoor de opdracht heb ik gekozen voor 3 devices:\nIphone\nApplewatch\nAirpods(voor auditieve feedback).",
+    "process": "Ik ben begonnen met ideegeneratie en onderzoek. Vervolgens heb ik gekeken naar wat de gebruiker wilt.\nUiteindelijk resulteert dit in een eerste versie van mijn ontwerp. Hier heb ik user tests mee uitgevoerd. Met de gekregen feedback heb ik een itteratieslag gemaakt en ben ik verder in detail gegaan. Het uiteindelijke ontwerp in hoge resolutie is gericht op het optimaliseren van de technologie voor mijn gebruiker.\n\nUser Scenario -> User Journey -> Product Requirements -> Desk Research -> Wireflow -> Screenflow",
     "screenshots": [
       "./assets/images/portfolio/powder-1.png",
       "./assets/images/portfolio/powder-2.png",
       "./assets/images/portfolio/powder-3.png"
     ],
-    "link": "#",
-    "github": "#"
+    "link": "",
+    "github": ""
   },
   {
     "title": "Popcorn Time",
     "category": "graphic",
-    "tech": "HTML, CSS, JavaScript",
+    "tech": "Figma",
     "image": "./assets/images/portfolio/Popcorn.png",
     "subtext": "Popcorn Time",
-    "assignmentDescription": "Een filmplatform UI met focus op gebruiksgemak en sfeer.",
+    "assignmentDescription": "Ontwerp een interactieve toepassing die mensen/contactzoekers helpt om contact met elkaar te maken in de offline wereld.\nNa week 1 moeten we de toepassing gaan aanpassen voor mensen met een beperking.\nVoor dit prototype heb ik de beperkingen 'Blind/slechtziend' gekozen.",
     "assignmentType": "Individueel",
-    "assignmentCourse": "UI Design",
-    "idea": "Donker thema met focus op content imagery.",
-    "process": "Card UI, scrollable carousel, font pairing.",
+    "assignmentCourse": "Jaar 1 - Doe de Date",
+    "idea": "Je wilt graag een avondje naar de bioscoop met iemand, alleen je vrienden kunnen niet. Hier komt Popcorn Time bij kijken. Popcorn Time is een service die je matcht met een buddy die naar dezelfde film wilt op hetzelfde tijdstip. De app is onderandere ontwikkeld voor mensen met een visuele beperking.\n\nVoor dit project ben ik genomineerd voor beste studentwerk van het jaar(2023) door de docent! (Golden Dot Awards)",
+    "process": "De app is zowel inclusief als exclusief gemaakt. Zo kan je als je de app opent switchen tussen audio modus en normale modus.\nMet audiomodus krijg je een volledig audiotieve experience en wordt alles voorgelezen. Aan het einde krijg je van de app ook suggesties voor hulpmiddelen tijdens de film.",
     "screenshots": [
       "./assets/images/portfolio/popcorn-1.png",
       "./assets/images/portfolio/popcorn-2.png",
       "./assets/images/portfolio/popcorn-3.png"
     ],
     "link": "#",
+    "github": "#"
+  },
+    {
+    "title": "Zandvoort",
+    "category": "photo",
+    "tech": "",
+    "image": "./assets/images/portfolio/foto-2.jpeg",
+    "subtext": "Zandvoort",
+    "assignmentDescription": "",
+    "assignmentType": "Foto",
+    "assignmentCourse": "",
+    "idea": "",
+    "process": "",
+    "screenshots": [],
+    "link": "#",
+    "github": "#"
+  },
+  {
+    "title": "Molen",
+    "category": "photo",
+    "tech": "",
+    "image": "./assets/images/portfolio/foto-1.jpeg",
+    "subtext": "Molen",
+    "assignmentDescription": "",
+    "assignmentType": "Foto",
+    "assignmentCourse": "",
+    "idea": "",
+    "process": "",
+    "screenshots": [],
+    "link": "#",
+    "github": "#"
+  },
+    {
+    "title": "Showreel Video",
+    "category": "photo",
+    "tech": "",
+    "image": "./assets/images/portfolio/showreel.jpeg",
+    "subtext": "Showreel Video",
+    "assignmentDescription": "",
+    "assignmentType": "Video",
+    "assignmentCourse": "",
+    "idea": "",
+    "process": "",
+    "screenshots": [
+      "./assets/images/portfolio/showreel-1.jpeg",
+      "./assets/images/portfolio/showreel-2.jpeg",
+      "./assets/images/portfolio/showreel-3.jpeg"],
+    "link": "https://www.youtube.com/watch?v=8j-tSomtw8Y",
     "github": "#"
   }
 ]
