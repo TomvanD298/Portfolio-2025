@@ -19,6 +19,9 @@
   --shape-dark: #000000;
   --shape-light: #ffffff;
   --shape-opacity: 0.2;
+
+  touch-action: pan-x pan-y;
+  height: 100%;
 }
 
 * {
