@@ -277,3 +277,24 @@
   background-color: var(--background-color);
   color: var(--primary-color);
 }
+
+@media only screen and (max-width: 700px) {
+  .modal-information {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-information {
+    width: 100%;
+  }
+
+  .assignment,
+  .idea,
+  .process {
+    width: 100%;
+  }
+
+  .screenshots {
+    margin-top: 0;
+  }
+}

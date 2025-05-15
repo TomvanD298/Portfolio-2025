@@ -7,7 +7,7 @@
     "subtext": "Bierweer",
     "assignmentDescription": "Ontwikkel in vier weken een (mobiele) webapplicatie die qua gebruikerservaring kan concurreren met native mobiele apps. Je start met een server-side gerenderde webapplicatie en verbetert deze stapsgewijs door gebruik te maken van moderne webtechnologieën en beschikbare web API’s.",
     "assignmentType": "Individueel",
-    "assignmentCourse": "Minor Web - API",
+    "assignmentCourse": "Jaar 3 - Minor Web - API",
     "idea": "Een slimme bieraanbevelingsapp die locatie en het weer gebruikt om je het perfecte biertje te bieden.",
     "process": "Benieuwd naar mijn volledige proces? Neem gerust een kijkje op mijn GitHub-pagina.",
     "screenshots": [
@@ -26,7 +26,7 @@
     "subtext": "Appboard voor in de trein",
     "assignmentDescription": "We hebben drie mensen uitgenodigd die elke week langs komen. Jullie gaan voor één van deze mensen een prototype ontwerpen, heel specifiek alleen voor deze persoon. Deze mensen gebruiken het web op hun eigen manier. Jij zorgt er voor dat jouw prototype optimaal voor de voorkeuren van deze ene persoon werken.\n \n Ontwikkel en test een tailormade applicatie die optimaal functioneert wanneer de eindgebruiker zich in een rijdende trein bevindt.",
     "assignmentType": "Individueel",
-    "assignmentCourse": "Minor Web - Human Centred Design",
+    "assignmentCourse": "Jaar 3 - Minor Web - Human Centred Design",
     "idea": "Het idee is om een app te ontwikkelen waarmee de eindgebruiker eenvoudig volledige zinnen kan versturen zonder deze handmatig te hoeven typen. De gebruiker stelt vooraf een persoonlijke bibliotheek samen met vaak gebruikte zinnen, onderverdeeld in categorieën.\n \nDoor zinnen te combineren kan hij snel korte berichten of uitgebreide verhalen samenstellen. Deze zinnen kunnen direct gedeeld worden via WhatsApp of andere communicatie-apps, wat communicatie sneller en minder inspannend maakt",
     "process": "Benieuwd naar mijn volledige proces? Neem gerust een kijkje op mijn GitHub-pagina..",
     "screenshots": [
@@ -38,14 +38,14 @@
     "github": "https://github.com/TomvanD298/WEB-HCD-24-25"
   },
   {
-    "title": "Delorean with CSS",
+    "title": "Delorean met CSS",
     "category": "web",
     "tech": "HTML, CSS, JavaScript",
     "image": "./assets/images/portfolio/backtothefuture.png",
-    "subtext": "Delorean with CSS",
+    "subtext": "Delorean met CSS",
     "assignmentDescription": "In deze vierweekse cursus ga je experimenteren met CSS-technieken die nieuw voor je zijn. Je creëert een innovatieve, experimentele en plezierige ervaring – met alleen pure HTML en pure CSS (frameworks, preprocessors, libraries en JavaScript zijn niet toegestaan).",
     "assignmentType": "Individueel",
-    "assignmentCourse": "Minor Web - CSS To The Rescue",
+    "assignmentCourse": "Jaar 3 - Minor Web - CSS To The Rescue",
     "idea": "Een interactief DeLorean-dashboard waarmee je kunt tijdreizen. Verander de tijd en de achtergrond past zich aan – alsof je echt in een andere periode belandt. Start de motor, draai aan het stuur en ervaar het allemaal… met alleen HTML en CSS.",
     "process": "Benieuwd naar mijn volledige proces? Neem gerust een kijkje op mijn GitHub-pagina.",
     "screenshots": [
@@ -53,27 +53,26 @@
       "./assets/images/portfolio/delorean-2.png",
       "./assets/images/portfolio/delorean-3.png"
     ],
-    "link": "#",
-    "github": "#"
+    "link": "https://tomvand298.github.io/BackToTheFuture/",
+    "github": "https://github.com/TomvanD298/BackToTheFuture"
   },
   {
-    "title": "Browser Tech",
+    "title": "Belastingformulier voor de NS",
     "category": "web",
     "tech": "HTML, CSS, JavaScript",
     "image": "./assets/images/portfolio/BT.png",
     "subtext": "Belastingformulier voor de NS",
-    "assignmentDescription": "Automatiseert invullen van NS-belastingformulieren met progressive enhancement.",
+    "assignmentDescription": "Op basis van een officiële PDF van de Nederlandse Belastingdienst ga je een interactief web-formulier maken. Met behulp van de power of HTML and CSS ga je een degelijk ontworpen web-formulier bouwen met een duidelijke focus op usability en accessibility. Je gebruikt de kracht van JavaScript waar nodig om dit formulier nóg bruikbaarder, beter en wellicht zelfs leuker te maken. \n \n Je bouwt dit formulier volgens de principes van progressive enhancement. Je gaat je formulier testen op allerlei verschillende hard- en software, zowel oud als nieuw, met allerlei verschillende manieren van input en output. Je zorgt er voor dat het overal werkt, en je zorgt er voor dat het zo mogelijk zelfs heel erg goed werkt.",
     "assignmentType": "Individueel",
-    "assignmentCourse": "Browser Technologies",
-    "idea": "Mobiele site die gegevens automatisch ophaalt en invult.",
-    "process": "PE en FormData API, met fallback logica.",
+    "assignmentCourse": "Jaar 3 - Minor Web - Browser Technologies",
+    "idea": "Mobiele- en Desktop site die het makkelijker maakt om het belastingformulier in te vullen.",
+    "process": "Benieuwd naar mijn volledige proces? Neem gerust een kijkje op mijn GitHub-pagina.",
     "screenshots": [
       "./assets/images/portfolio/bt-1.png",
-      "./assets/images/portfolio/bt-2.png",
-      "./assets/images/portfolio/bt-3.png"
+      "./assets/images/portfolio/bt-2.png"
     ],
-    "link": "#",
-    "github": "#"
+    "link": "https://tomvand298.github.io/BrowserTechForm/",
+    "github": "https://github.com/TomvanD298/BrowserTechForm"
   },
   {
     "title": "Hackaton",
@@ -83,7 +82,7 @@
     "subtext": "Hackaton",
     "assignmentDescription": "Een snelle prototype sprint voor een thema-opdracht.",
     "assignmentType": "Groepsproject",
-    "assignmentCourse": "Minor Makers Lab",
+    "assignmentCourse": "Jaar 3 - Minor Web - Hackaton",
     "idea": "Slimme sensorinterface voor stedelijke luchtkwaliteit.",
     "process": "3 dagen prototyping, Arduino + webinterface.",
     "screenshots": [
