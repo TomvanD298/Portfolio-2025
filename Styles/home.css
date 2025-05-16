@@ -41,7 +41,8 @@ body {
   color: var(--text-white);
   overflow-x: hidden;
 
-  font-weight: 600;
+  font-weight: 400;
+  line-height: 1.3;
 }
 
 header nav {
@@ -56,7 +57,6 @@ header nav {
 
   /* From https://css.glass */
   background: rgba(0, 0, 0, 0.3);
-  border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.9px);
   -webkit-backdrop-filter: blur(5.9px);
@@ -68,6 +68,7 @@ header nav {
     color: var(--text-white);
     margin: 1rem 0;
     transition: all 0.3s ease-out;
+    font-weight: 600;
   }
   a:hover {
     color: var(--primary-color);
@@ -102,6 +103,7 @@ header nav {
   a {
     transition: all 0.3s ease-out;
     margin-top: 5em;
+    font-weight: 600;
   }
 
   a:hover {
@@ -166,6 +168,7 @@ h1 {
   color: var(--text-black);
   display: inline-block;
   padding: 5px 10px;
+  border-radius: 4px;
   margin-bottom: 2em;
   font-weight: bold;
 }
