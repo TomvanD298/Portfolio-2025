@@ -1,5 +1,26 @@
 [
   {
+   
+    "title": "Pokémon TCG Platform [Mobile Only]",
+    "category": "web",
+    "tech": "Next.js, Tailwind CSS, TypeScript, API's, JSON, Figma",
+    "image": "./assets/images/portfolio/pokemon-1.jpeg",
+    "subtext": "Centraal platform voor Pokémon-verzamelaars ",
+    "assignmentDescription": "Ontwikkel een webapplicatie in opdracht van Hypersolid die de versnipperde Pokémon TCG-markt overzichtelijk maakt. De app begeleidt beginners, biedt verdieping aan ervaren verzamelaars en faciliteert een veilige omgeving met een slimme OCR-kaartscanner en centrale hub.",
+    "assignmentType": "Individueel",
+    "assignmentCourse": "Jaar 4 - afstudeerstage - Hypersolid",
+    "idea": "Een centrale webapplicatie voor Pokémon-verzamelaars die marktwaarden, nieuws en een slimme scanfunctie samenbrengt in één toegankelijke hub.",
+    "process": "Benieuwd naar het volledige ontwerpproces, de gemaakte keuzes en de technische realisatie? Neem gerust een kijkje op mijn GitHub-pagina of bekijk de volledige productbiografie.",
+    "screenshots": [
+      "./assets/images/portfolio/pokemon-1.jpeg",
+      "./assets/images/portfolio/pokemon-2.jpeg",
+      "./assets/images/portfolio/pokemon-3.jpeg"
+    ],  
+  "link": "https://tomvand298.github.io/Pokemon-web-app/nl/",
+  "github": "https://github.com/TomvanD298/Pokemon-web-app"
+  },
+
+  {
     "title": "Bierweer",
     "category": "web",
     "tech": "Tiny HTTP, LiquidJS, API's",

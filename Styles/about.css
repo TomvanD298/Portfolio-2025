@@ -12,7 +12,6 @@
   justify-items: center;
   align-items: center;
 
-  width: 100dvw;
   height: fit-content;
   padding: 10dvh 0 50dvh 0;
 
@@ -97,7 +96,6 @@
 
 .aboutText {
   grid-area: 1 / 2 / 2 / 3;
-  width: 60%;
 }
 
 h2 {
