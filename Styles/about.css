@@ -321,6 +321,14 @@ h2 {
   box-shadow: 0 0 20px #f7df1e;
 }
 
+#logoNextJS:hover {
+  box-shadow: 0 0 20px #fff;
+}
+
+#logoTypeScript:hover {
+  box-shadow: 0 0 20px #3178c6;
+}
+
 #logoVue:hover {
   box-shadow: 0 0 20px #42b883;
 }

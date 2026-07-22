@@ -34,7 +34,9 @@
     font-size: 1.2em;
     font-weight: 600;
 
-    transition: 0.3s ease, color 0.3s ease;
+    transition:
+      0.3s ease,
+      color 0.3s ease;
   }
 
   #filterButtons button.active-filter {
@@ -231,8 +233,11 @@
 
 .close-btn {
   position: absolute;
-  aspect-ratio: 1;
-  width: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1em;
+  height: 1em;
   top: 10px;
   right: 25px;
   font-size: 3em;
@@ -263,7 +268,9 @@
   cursor: pointer;
   background: none;
   margin: 2em 0;
-  transition: 0.3s ease, color 0.3s ease;
+  transition:
+    0.3s ease,
+    color 0.3s ease;
 }
 
 .modal-buttons a {
@@ -277,7 +284,9 @@
   color: var(--text-white);
   font-size: 1em;
   text-decoration: none;
-  transition: 0.3s ease, color 0.3s ease;
+  transition:
+    0.3s ease,
+    color 0.3s ease;
 }
 
 .modal-buttons a:hover {
